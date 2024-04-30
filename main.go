@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	message := "Hello les ziGOtos ;)...... :-|"
+	message := "Hello les ziGOtos :-|"
 	fmt.Println(message)
 	fmt.Fprintf(w, message)
 }
